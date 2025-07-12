@@ -1,0 +1,83 @@
+body, html {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00ffd0;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+select {
+  background-color: #222;
+  color: white;
+}
+
+button {
+  background-color: #00ffd0;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #00b8a2;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-list div {
+  background: #2a2a2a;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  transition: transform 0.2s;
+}
+
+.card-list div:hover {
+  transform: scale(1.05);
+}

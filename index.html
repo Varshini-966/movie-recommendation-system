@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🎥 Movie Recommender</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay">
+      <div class="container">
+        <h1>🎬 Movie Recommendation System</h1>
+
+        <div class="select-group">
+          <label>Language</label>
+          <select id="language" onchange="updateMovieList()">
+            <option value="">-- Select Language --</option>
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="te">Telugu</option>
+          </select>
+
+          <label>Genre</label>
+          <select id="genre" onchange="updateMovieList()">
+            <option value="">-- Select Genre --</option>
+            <option value="Action">Action</option>
+            <option value="Romance">Romance</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+            <option value="Drama">Drama</option>
+          </select>
+        </div>
+
+        <label>Select Movies You Liked:</label>
+        <select id="movieSelect" multiple size="8"></select>
+
+        <button onclick="getRecommendations()">🎯 Get Recommendations</button>
+
+        <h2>Recommended Movies</h2>
+        <div id="resultList" class="card-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
