@@ -73,6 +73,6 @@ Used the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-mov
 **Varshini Yerlanki**  
 B.Tech CSE, VIT (2022–2026)  
 University 3rd Rank Holder  
-📧 yerlankivarshini@gmail.comw 
+📧 yerlankivarshini@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/varshini-yerlanki-a95698293) | [GitHub](https://github.com/Varshini-966)
 
